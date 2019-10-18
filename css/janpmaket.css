@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*TODO LO QUE SE PUEDA HACER ES INTENTAR QUE SEA RESPONSIVE EN TODO LOS DESPOSITIVOS EL */
+
+.conten {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    background: red;
+}
