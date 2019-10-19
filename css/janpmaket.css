@@ -6,9 +6,47 @@
 
 /*TODO LO QUE SE PUEDA HACER ES INTENTAR QUE SEA RESPONSIVE EN TODO LOS DESPOSITIVOS EL */
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
 .conten {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    max-width: 1200px;
-    background: red;
+    background: greenyellow;
+}
+
+.reg-12 {
+    margin: 0px auto;
+    width: 100%;
+    background: blue;
+}
+
+.reg-6 {
+    width: 50%;
+    margin: 0px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #ff343446;
+}
+
+.reg-3 {
+    width: 24%;
+    margin: 0px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #ff343446;
+}
+
+.reg-2 {
+    width: 12.5%;
+    margin: 0px auto;
+    background: rgba(51, 255, 255, 0.822);
+    margin-left: 5px;
+    margin-right: 5px;
 }
