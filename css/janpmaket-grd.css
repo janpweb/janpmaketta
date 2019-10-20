@@ -16,18 +16,54 @@ body {
     background-color: chocolate;
 }
 
+
+/*MODULOS  FIJOS HEADER  CUERPO  SIDEBAR FOOTER*/
+
 .grd-header-1 {
     grid-template-columns: auto;
     background-color: blueviolet;
 }
 
-.grd-col-3 {
+
+/* COLUMNAS DE GRID*/
+
+.gri-col-7 {
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.gri-col-6 {
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.gri-col-5 {
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.gri-col-4 {
+    grid-template-columns: auto auto auto auto;
+}
+
+.gri-col-3 {
     grid-template-columns: auto auto auto;
 }
+
+.gri-col-2 {
+    grid-template-columns: auto auto;
+}
+
+.gri-col-1 {
+    grid-template-columns: auto;
+}
+
+
+/*SEPARACION*/
 
 .grd-gap {
     grid-gap: 10px
 }
+
+
+/*item*/
 
 .item {
     border: 1px solid black;
@@ -37,9 +73,9 @@ body {
     text-align: center;
 }
 
-.item .prueba {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+
+/*@media (max-width:800px) {
+    .grd-col-3 {
+        grid-template-columns: auto;
+    }
+}*/
