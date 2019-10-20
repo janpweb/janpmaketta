@@ -56,10 +56,14 @@ body {
 }
 
 
-/*SEPARACION*/
+/*SEPARACION entre columnas y filas */
 
-.grd-gap {
+.grd-gap-10 {
     grid-gap: 10px
+}
+
+.grd-gap-5 {
+    grid-gap: 5px;
 }
 
 
@@ -74,8 +78,44 @@ body {
 }
 
 
-/*@media (max-width:800px) {
-    .grd-col-3 {
+/*el uso del espacio de lineas entre columna */
+
+.espcol-1x3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+/*el uso del espacio de lineas entre filas */
+
+.esprow-1x3 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.esprow-1x4 {
+    grid-row: 1/ 4;
+}
+
+
+/*EL USO DE LAS AREAS */
+
+@media (max-width:1000px) {
+    .gri-col-4,
+    .gri-col-5,
+    .gri-col-6,
+    .gri-col-7 {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:800px) {
+    .gri-col-4,
+    .gri-col-2,
+    .gri-col-3,
+    .gri-col-5,
+    .gri-col-6,
+    .gri-col-7 {
         grid-template-columns: auto;
     }
-}*/
+}
