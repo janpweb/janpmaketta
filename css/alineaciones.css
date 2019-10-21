@@ -1,0 +1,28 @@
+    /*alineacion de texto  */
+    
+    .txt-center {
+        text-align: center;
+    }
+    
+    .txt-right {
+        text-align: right;
+    }
+    
+    .txt-left {
+        text-align: left;
+    }
+    /* alineacion de contenido */
+    
+    .jt-content-center,
+    .jt-content-left {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .jt-content-center {
+        justify-content: center;
+    }
+    
+    .jt-content-left {
+        justify-content: left;
+    }
