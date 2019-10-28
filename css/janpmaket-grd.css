@@ -1,266 +1,208 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    width: 100vw;
-    height: 100vh;
-}
-
-.conten-grd {
-    width: 90%;
-    padding: 10px;
-    margin: auto;
-    display: grid;
-    background-color: chocolate;
-}
-
-
-/**************/
-
-
-/* PADDING*/
-
-
-/**************/
-
-
-/* padines generales */
-
-.p-1 {
-    padding: 10px;
-}
-
-.p-2 {
-    padding: 20px;
-}
-
-.p-3 {
-    padding: 30px;
-}
-
-.p-4 {
-    padding: 40px;
-}
-
-
-/*padding left*/
-
-.pl-1 {
-    padding-left: 10px;
-}
-
-.pl-2 {
-    padding-left: 20px;
-}
-
-.pl-3 {
-    padding-left: 30px;
-}
-
-.pl-4 {
-    padding-left: 40px;
-}
-
-
-/*padding   top*/
-
-.pt-1 {
-    padding-top: 10px;
-}
-
-.pt-2 {
-    padding-top: 20px;
-}
-
-.pt-3 {
-    padding-top: 30px;
-}
-
-.pt-4 {
-    padding-top: 40px;
-}
-
-
-/*padding reight*/
-
-.pr-1 {
-    padding-right: 10px;
-}
-
-.pr-2 {
-    padding-right: 20px;
-}
-
-.pr-3 {
-    padding-right: 30px;
-}
-
-.pr-4 {
-    padding-right: 40px;
-}
-
-
-/*paddi botton */
-
-.pb-1 {
-    padding-bottom: 10px;
-}
-
-.pb-2 {
-    padding-bottom: 20px;
-}
-
-.pb-3 {
-    padding-bottom: 30px;
-}
-
-.pb-3 {
-    padding-bottom: 40px;
-}
-
-
-/*MODULOS  FIJOS HEADER  CUERPO  SIDEBAR FOOTER*/
-
-.grd-header-1 {
-    grid-template-columns: auto;
-    background-color: blueviolet;
-}
-
-
-/*menu */
-
-.clearfix {
-    float: none;
-    clear: both;
-}
-
-.mn-bar {
-    font-family: Helvetica, sans-serif;
-    width: 100%;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.mn-bg {
-    background: #333;
-}
-
-.mn-bar ul {
-    line-height: 46px;
-    list-style: none;
-}
-
-.mn-bar ul li {
-    height: 46px;
-    display: inline-block;
-    transition: all 300ms;
-    -webkit-transition: all 300ms;
-    -moz-transition: all 300ms;
-    -ms-transition: all 300ms;
-    -o-transition: all 300ms;
-}
-
-.mn-bar a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-
-/* COLUMNAS DE GRID*/
-
-.gri-col-7 {
-    grid-template-columns: auto auto auto auto auto auto auto;
-}
-
-.gri-col-6 {
-    grid-template-columns: auto auto auto auto auto auto;
-}
-
-.gri-col-5 {
-    grid-template-columns: auto auto auto auto auto;
-}
-
-.gri-col-4 {
-    grid-template-columns: auto auto auto auto;
-}
-
-.gri-col-3 {
-    grid-template-columns: auto auto auto;
-}
-
-.gri-col-2 {
-    grid-template-columns: auto auto;
-}
-
-.gri-col-1 {
-    grid-template-columns: auto;
-}
-
-
-/*SEPARACION entre columnas y filas */
-
-.grd-gap-10 {
-    grid-gap: 10px
-}
-
-.grd-gap-5 {
-    grid-gap: 5px;
-}
-
-
-/*item*/
-
-.item {
-    border: 1px solid black;
-    background-color: cadetblue;
-    padding: 20px 0;
-    font-size: 30px;
-}
-
-
-/*el uso del espacio de lineas entre columna */
-
-.espcol-1x3 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-
-/*el uso del espacio de lineas entre filas */
-
-.esprow-1x3 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-
-.esprow-1x4 {
-    grid-row: 1/ 4;
-}
-
-
-/*EL USO DE LAS AREAS */
-
-@media (max-width:1000px) {
-    .gri-col-4,
-    .gri-col-5,
-    .gri-col-6,
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        position: absolute;
+    }
+    
+    .conten-grd {
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+        display: grid;
+        background-color: chocolate;
+    }
+    /**************/
+    /* PADDING*/
+    /**************/
+    /* padines generales */
+    
+    .p-1 {
+        padding: 10px;
+    }
+    
+    .p-2 {
+        padding: 20px;
+    }
+    
+    .p-3 {
+        padding: 30px;
+    }
+    
+    .p-4 {
+        padding: 40px;
+    }
+    /*padding left*/
+    
+    .pl-1 {
+        padding-left: 10px;
+    }
+    
+    .pl-2 {
+        padding-left: 20px;
+    }
+    
+    .pl-3 {
+        padding-left: 30px;
+    }
+    
+    .pl-4 {
+        padding-left: 40px;
+    }
+    /*padding   top*/
+    
+    .pt-1 {
+        padding-top: 10px;
+    }
+    
+    .pt-2 {
+        padding-top: 20px;
+    }
+    
+    .pt-3 {
+        padding-top: 30px;
+    }
+    
+    .pt-4 {
+        padding-top: 40px;
+    }
+    /*padding reight*/
+    
+    .pr-1 {
+        padding-right: 10px;
+    }
+    
+    .pr-2 {
+        padding-right: 20px;
+    }
+    
+    .pr-3 {
+        padding-right: 30px;
+    }
+    
+    .pr-4 {
+        padding-right: 40px;
+    }
+    /*paddi botton */
+    
+    .pb-1 {
+        padding-bottom: 10px;
+    }
+    
+    .pb-2 {
+        padding-bottom: 20px;
+    }
+    
+    .pb-3 {
+        padding-bottom: 30px;
+    }
+    
+    .pb-3 {
+        padding-bottom: 40px;
+    }
+    /*MODULOS  FIJOS HEADER  CUERPO  SIDEBAR FOOTER*/
+    
+    .grd-header-1 {
+        grid-template-columns: auto;
+        background-color: blueviolet;
+    }
+    /*menu */
+    
+    .clearfix {
+        float: none;
+        clear: both;
+    }
+    
+    .mn-barra {
+        display: none;
+    }
+    /**
+
+
+
+*/
+    /* COLUMNAS DE GRID*/
+    
     .gri-col-7 {
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+    
+    .gri-col-6 {
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    
+    .gri-col-5 {
+        grid-template-columns: auto auto auto auto auto;
+    }
+    
+    .gri-col-4 {
+        grid-template-columns: auto auto auto auto;
+    }
+    
+    .gri-col-3 {
+        grid-template-columns: auto auto auto;
+    }
+    
+    .gri-col-2 {
         grid-template-columns: auto auto;
     }
-}
-
-@media (max-width:800px) {
-    .gri-col-4,
-    .gri-col-2,
-    .gri-col-3,
-    .gri-col-5,
-    .gri-col-6,
-    .gri-col-7 {
+    
+    .gri-col-1 {
         grid-template-columns: auto;
     }
-}
+    /*SEPARACION entre columnas y filas */
+    
+    .grd-gap-10 {
+        grid-gap: 10px
+    }
+    
+    .grd-gap-5 {
+        grid-gap: 5px;
+    }
+    /*item*/
+    
+    .item {
+        border: 1px solid black;
+        background-color: cadetblue;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    /*el uso del espacio de lineas entre columna */
+    
+    .espcol-1x3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    /*el uso del espacio de lineas entre filas */
+    
+    .esprow-1x3 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .esprow-1x4 {
+        grid-row: 1/ 4;
+    }
+    /*EL USO DE LAS AREAS */
+    
+    @media (max-width:1000px) {
+        .gri-col-4,
+        .gri-col-5,
+        .gri-col-6,
+        .gri-col-7 {
+            grid-template-columns: auto auto;
+        }
+    }
+    
+    @media (max-width:800px) {
+        .gri-col-4,
+        .gri-col-2,
+        .gri-col-3,
+        .gri-col-5,
+        .gri-col-6,
+        .gri-col-7 {
+            grid-template-columns: auto;
+        }
+    }

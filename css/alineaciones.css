@@ -26,3 +26,21 @@
     .jt-content-left {
         justify-content: left;
     }
+    /* posicion */
+    
+    .pos-fixed {
+        position: fixed;
+    }
+    
+    .pos-absolute {
+        position: absolute;
+    }
+    
+    .pos-relative {
+        position: relative;
+    }
+    
+    .pos-sticky {
+        position: sticky;
+        top: 0rem;
+    }
