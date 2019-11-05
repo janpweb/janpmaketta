@@ -16,7 +16,8 @@
 /* alineacion de contenido */
 
 .jt-content-center,
-.jt-content-left {
+.jt-content-left,
+.jt-between {
     display: flex;
     flex-wrap: wrap;
 }
@@ -27,6 +28,10 @@
 
 .jt-content-left {
     justify-content: left;
+}
+
+.jt-between {
+    justify-content: space-between;
 }
 
 

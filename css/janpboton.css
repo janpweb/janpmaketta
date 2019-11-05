@@ -17,6 +17,19 @@ button {
     padding: 0.5em;
 }
 
+.botn {
+    display: block;
+    height: 45px;
+    width: 250px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 .botn-block {
     display: block;
     width: 100%;
@@ -136,3 +149,5 @@ button {
     background: #246c9c !important;
     border: 2px solid #275879;
 }
+
+.botn
