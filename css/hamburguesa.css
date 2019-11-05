@@ -71,7 +71,7 @@
         clear: both;
     }
     .cf {
-        zoom: 1;
+        *zoom: 1;
     }
     /* ALL */
     .row .three {
@@ -84,11 +84,11 @@
         text-align: center;
     }
     .hamburger .line {
-        width: 50px;
-        height: 5px;
+        width: 1.35em;
+        height: 0.16em;
         background-color: #ecf0f1;
         display: block;
-        margin: 8px auto;
+        margin: 0.19em auto;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;

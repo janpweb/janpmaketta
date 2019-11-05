@@ -1,46 +1,122 @@
-    /*alineacion de texto  */
-    
-    .txt-center {
-        text-align: center;
-    }
-    
-    .txt-right {
-        text-align: right;
-    }
-    
-    .txt-left {
-        text-align: left;
-    }
-    /* alineacion de contenido */
-    
-    .jt-content-center,
-    .jt-content-left {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .jt-content-center {
-        justify-content: center;
-    }
-    
-    .jt-content-left {
-        justify-content: left;
-    }
-    /* posicion */
-    
-    .pos-fixed {
-        position: fixed;
-    }
-    
-    .pos-absolute {
-        position: absolute;
-    }
-    
-    .pos-relative {
-        position: relative;
-    }
-    
-    .pos-sticky {
-        position: sticky;
-        top: 0rem;
-    }
+/*alineacion de texto  */
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+
+/* alineacion de contenido */
+
+.jt-content-center,
+.jt-content-left {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jt-content-center {
+    justify-content: center;
+}
+
+.jt-content-left {
+    justify-content: left;
+}
+
+
+/* posicion */
+
+.pos-fixed {
+    position: fixed;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-sticky {
+    position: sticky;
+    top: 0rem;
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+
+/*MARGENES*/
+
+.mauto {
+    margin: 5px auto;
+}
+
+.ml-1 {
+    margin-left: 5px;
+}
+
+.ml-2 {
+    margin-left: 10px;
+}
+
+.ml-3 {
+    margin-left: 15px;
+}
+
+
+/*margnes izquirdo*/
+
+.mr-1 {
+    margin-right: 5px;
+}
+
+.mr-2 {
+    margin-right: 10px;
+}
+
+.mr-3 {
+    margin-right: 15px;
+}
+
+
+/* margenes top*/
+
+.mt-1 {
+    margin-top: 5px;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mt-3 {
+    margin-top: 15px;
+}
+
+
+/*margenes botton*/
+
+.mb-1 {
+    margin-bottom: 5px;
+}
+
+.mb-2 {
+    margin-bottom: 10px;
+}
+
+.mb-3 {
+    margin-bottom: 15px;
+}

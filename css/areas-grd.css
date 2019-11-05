@@ -1,15 +1,18 @@
 /* PLANTILLAS DE AREAS PREDETERMINADO  TIENES  QUE USAR EL FICHERO janpmaket-grd.css
 */
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
 
 /*AREA DE  5 COLUMNAS  */
 
 .item1 {
     grid-area: header;
-}
-
-.item2 {
-    grid-area: menu;
 }
 
 .item3 {
@@ -21,18 +24,20 @@
 }
 
 .item5 {
+    grid-area: seccion;
+}
+
+.item6 {
     grid-area: footer;
 }
 
 .modelo {
     display: grid;
-    grid-template-areas: 'header header header header header header''menu main main main right right''menu main main main right right''footer footer footer footer footer footer';
+    grid-template-areas: 'header header header header header header' 'main main main right right right' 'main main main right right right' 'seccion seccion seccion seccion seccion seccion ' 'footer footer footer footer footer footer';
     grid-gap: 10px;
     background-color: #2196F3;
 }
 
 .modelo>div {
     background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    font-size: 30px;
 }
