@@ -1,15 +1,75 @@
 /*MODAL BASICO*/
 
-.contenido-modal {
+.jm-modal-df {
     background-color: rgb(255, 255, 255);
-    width: 800px;
-    padding: 5px 5px;
+    display: grid;
+    width: 600px;
+    height: 500px;
+    padding: 1.25rem;
     margin: 20% auto;
     position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
-.modal {
-    background-color: rgba(0, 0, 0, 0.452);
+
+/*con border reedondeado */
+
+.modal-rd-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.modal-rd-15 {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.modal-rd-20 {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/*SOMBRA DEL CONTENEDOR MODAL */
+
+.jm-shadow {
+    box-shadow: 20px 20px 20px rgba(48, 46, 46, 0.986);
+}
+
+
+/**COLORE DE PREFONDO DEL MODAL */
+
+.modal-prefon-blue {
+    background-color: rgba(62, 130, 255, 0.3) !important;
+}
+
+.modal-prefon-green {
+    background-color: rgba(96, 255, 144, 0.3)!important;
+}
+
+.modal-prefon-orange {
+    background-color: rgba(255, 167, 5, 0.3);
+}
+
+.modal-df {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     position: fixed;
     top: 0;
     right: 0;
