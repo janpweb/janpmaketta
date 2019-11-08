@@ -3,7 +3,7 @@
 .jm-modal-df {
     background-color: rgb(255, 255, 255);
     display: grid;
-    width: 600px;
+    width: 40%;
     height: 500px;
     padding: 1.25rem;
     margin: 20% auto;
@@ -13,6 +13,33 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+.modal-md {
+    width: 50%;
+}
+
+.modal-lg {
+    width: 90%;
+}
+
+
+/*sombras en la targetas modal */
+
+.jm-shadow-5 {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
+}
+
+.jm-shadow-10 {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+}
+
+.jm-shadow-15 {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.534);
+}
+
+.jm-shadow-20 {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.534);
 }
 
 
@@ -43,14 +70,20 @@
 }
 
 
-/*SOMBRA DEL CONTENEDOR MODAL */
+/*FILTROS QUE FUNCIONA SOLO EN LOS NAVEGADORES CROME Y SAFARI */
 
-.jm-shadow {
-    box-shadow: 20px 20px 20px rgba(48, 46, 46, 0.986);
+.jm-filter-blur {
+    backdrop-filter: blur(0.8);
+    -webkit-backdrop-filter: blur(0.8);
+}
+
+.jm-filter-bn {
+    backdrop-filter: grayscale(100%);
+    -webkit-backdrop-filter: grayscale(100%);
 }
 
 
-/**COLORE DE PREFONDO DEL MODAL */
+/**COLORES DE PREFONDO DEL MODAL */
 
 .modal-prefon-blue {
     background-color: rgba(62, 130, 255, 0.3) !important;
@@ -64,8 +97,19 @@
     background-color: rgba(255, 167, 5, 0.3);
 }
 
+
+/** efectos  blend mode efecto impirementarl */
+
+.jm-blend {
+    background-blend-mode: hard-light;
+    background-image: linear-gradient(to right, rgba(98, 255, 247, 0.438) 0%, rgba(255, 217, 0, 0.39) 100%), url('/img/jose.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .modal-df {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgb(0, 0, 0, 0.3);
+    /*por default*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

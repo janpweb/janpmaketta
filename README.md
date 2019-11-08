@@ -5,8 +5,8 @@
 ## La tecnologías usadas principalmente es:
 ---
 
- * Css
- * Javascript
+* Css
+* Javascript
 
 ## Usos de grillas.  
 ---

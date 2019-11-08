@@ -7,6 +7,12 @@
         position: absolute;
     }
     
+    a {
+        text-decoration-line: none;
+        -moz-text-decoration-line: none;
+        color: black;
+    }
+    
     .conten-grd {
         width: 90%;
         padding: 10px;
