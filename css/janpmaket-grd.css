@@ -3,10 +3,6 @@
         padding: 0px;
     }
     
-    body {
-        position: absolute;
-    }
-    
     a {
         text-decoration-line: none;
         -moz-text-decoration-line: none;

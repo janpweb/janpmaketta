@@ -32,6 +32,7 @@ body {
 }
 
 .modelo {
+    padding: 10px;
     display: grid;
     grid-template-areas: 'header header header header header header' 'main main main right right right' 'main main main right right right' 'seccion seccion seccion seccion seccion seccion ' 'footer footer footer footer footer footer';
     grid-gap: 10px;
@@ -39,5 +40,48 @@ body {
 }
 
 .modelo>div {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.plantillas {
+    display: grid;
+    grid-template-areas: 'item item item2 item2 item3 item3 item4 item4' 'item item item2 item2 item3 item3 item4 item4' 'item5 item5 item6 item6 item7 item7 item8 item8' 'item5 item5 item6 item6 item7 item7 item8 item8';
+    background-color: #2196F3;
+    grid-gap: 5px;
+}
+
+.cuadro {
+    grid-area: item;
+}
+
+.cuadro2 {
+    grid-area: item2;
+}
+
+.cuadro3 {
+    grid-area: item3;
+}
+
+.cuadro4 {
+    grid-area: item4;
+}
+
+.cuadro5 {
+    grid-area: item5;
+}
+
+.cuadro6 {
+    grid-area: item6;
+}
+
+.cuadro7 {
+    grid-area: item7;
+}
+
+.cuadro8 {
+    grid-area: item8;
+}
+
+.plantillas>div {
     background-color: rgba(255, 255, 255, 0.8);
 }

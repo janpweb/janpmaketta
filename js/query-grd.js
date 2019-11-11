@@ -44,6 +44,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
     botonHamburguesa.addEventListener('click', function() {
+        console.log("le ha dasdo click")
         AnimarBoton();
 
         if (botonHamburguesa) {

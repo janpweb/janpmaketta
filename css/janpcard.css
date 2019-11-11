@@ -1,0 +1,38 @@
+.jm-card-group {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.jm-card-df {
+    display: grid;
+    width: 350px;
+    height: 500px;
+    padding: 0.25rem;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: red;
+    /*elcontenedor*/
+    box-shadow: 8px 8px 8px tomato;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.jm-card-header {
+    grid-column: auto;
+    background-color: teal;
+}
+
+.jm-card-body {
+    grid-column: auto;
+    background-color: thistle
+}
+
+.jm-card-footer {
+    grid-column: 2fr auto;
+    background-color: violet;
+}
