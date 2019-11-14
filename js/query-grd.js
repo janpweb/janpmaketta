@@ -54,7 +54,29 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
     });
-    //MODAL DESENFOQUE
+
+    var cartThumb = document.querySelectorAll('.cart-thumb');
+    var resultado = [];
+
+    cartThumb.forEach(element => {
+
+        var dataImg = element.dataset;
+        var laimagen = dataImg.imagen;
+        var resultado = element.style.backgroundImage = "url(" + laimagen + ")";
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

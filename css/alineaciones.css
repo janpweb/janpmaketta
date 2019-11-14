@@ -2,14 +2,26 @@
 
 .txt-center {
     text-align: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .txt-right {
     text-align: right;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .txt-left {
     text-align: left;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.txt-justify {
+    text-align: justify;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 

@@ -32,7 +32,6 @@ body {
 }
 
 .modelo {
-    padding: 10px;
     display: grid;
     grid-template-areas: 'header header header header header header' 'main main main right right right' 'main main main right right right' 'seccion seccion seccion seccion seccion seccion ' 'footer footer footer footer footer footer';
     grid-gap: 10px;
@@ -84,4 +83,16 @@ body {
 
 .plantillas>div {
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width:1000px) {
+    .modelo {
+        grid-template-areas: 'header header header header header header''main main main main main main '' right right right right right right''seccion seccion seccion seccion seccion seccion ''footer footer footer footer footer footer';
+    }
+}
+
+@media (max-width:800px) {
+    .modelo {
+        grid-template-areas: 'header header header header header header' 'main main main main main main ' 'right right right right right right' 'seccion seccion seccion seccion seccion seccion' 'footer footer footer footer footer footer';
+    }
 }
