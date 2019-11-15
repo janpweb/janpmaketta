@@ -171,11 +171,37 @@
         padding: 20px 0;
         font-size: 30px;
     }
-    /*el uso del espacio de lineas entre columna */
+    /*el uso del espacio de lineas entre columnas la primera y la segunda  */
     
     .espcol-1x3 {
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+    
+    .espcol-1x4 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    .espcol-1x5 {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    /*el uso del espacio entre culumnas las segunda y tercera**/
+    
+    .espcol-1x3 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    
+    .espcol-1x4 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    
+    .espcol-1x5 {
+        grid-column-start: 2;
+        grid-column-end: 6;
     }
     /*el uso del espacio de lineas entre filas */
     
@@ -185,8 +211,11 @@
     }
     
     .esprow-1x4 {
-        grid-row: 1/ 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
     }
+    
+    .es
     /*EL USO DE LAS AREAS */
     
     @media (max-width:1000px) {
