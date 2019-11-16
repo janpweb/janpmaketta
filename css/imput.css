@@ -1,7 +1,8 @@
-.jm-input {
+.jm-input,
+.jm-select {
     background-color: #f5f5f5;
     font-size: 1.25rem;
-    border: 1px solid #f5f5f5;
+    border: 1px solid #d8d8d8;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -10,7 +11,58 @@
 }
 
 .jm-input-group {
-    position: relative;
     display: flex;
     margin: 0 auto;
+}
+
+
+/******
+
+
+***/
+
+select,
+option,
+input[type=text],
+[type=email],
+[type=tel],
+[type=number] {
+    font-family: Arial;
+    font-size: 0.80em;
+    padding-left: 0.20em;
+}
+
+.jm-select {
+    overflow: hidden;
+    width: 230px;
+    position: relative;
+}
+
+select {
+    background: transparent;
+    border: none;
+    width: 230px;
+}
+
+select:focus {
+    outline: none;
+}
+
+option {
+    background-color: wheat;
+}
+
+.jm-select::after {
+    content: "\025bd";
+    display: table-cell;
+    padding-top: 8px;
+    font-size: 0.80em;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 30px;
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    pointer-events: none;
 }
