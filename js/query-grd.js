@@ -56,16 +56,22 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     var cartThumb = document.querySelectorAll('.cart-thumb');
-    var resultado = [];
+    //var resultado = [];
 
     cartThumb.forEach(element => {
 
         var dataImg = element.dataset;
         var laimagen = dataImg.imagen;
-        var resultado = element.style.backgroundImage = "url(" + laimagen + ")";
+        element.style.backgroundImage = `url(${laimagen}`;
 
     });
 
+
+    var botns = document.querySelectorAll(".pepe button");
+    console.log(botns);
+    botns.addEventListener('click', function() {
+        console.log('le has dado click')
+    });
 
 
 

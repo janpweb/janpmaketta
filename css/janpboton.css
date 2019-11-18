@@ -43,6 +43,14 @@ button {
     -o-border-radius: 5px;
 }
 
+.botn-rd-25 {
+    border-radius: 25px !important;
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    -ms-border-radius: 25px !important;
+    -o-border-radius: 25px !important;
+}
+
 .botn-block:hover {
     border: 2px solid #dad7d7;
     background: #f5ebeb;

@@ -13,18 +13,22 @@ body {
 
 .item1 {
     grid-area: header;
+    display: inline-grid;
 }
 
 .item3 {
     grid-area: main;
+    display: inline-grid;
 }
 
 .item4 {
     grid-area: right;
+    display: inline-grid;
 }
 
 .item5 {
     grid-area: seccion;
+    display: inline-grid;
 }
 
 .item6 {

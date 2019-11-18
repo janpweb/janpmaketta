@@ -3,6 +3,14 @@
             padding: 0px;
         }
         
+        *::after {
+            box-sizing: border-box;
+        }
+        
+        *::before {
+            box-sizing: border-box;
+        }
+        
         a {
             text-decoration-line: none;
             -moz-text-decoration-line: none;
@@ -11,6 +19,14 @@
         
         .conten-grd {
             width: 90%;
+            padding: 10px;
+            margin: auto;
+            display: grid;
+            background-color: chocolate;
+        }
+        
+        .contengrd-full {
+            width: 100%;
             padding: 10px;
             margin: auto;
             display: grid;
@@ -148,11 +164,11 @@
         }
         
         .gri-col-2 {
-            grid-template-columns: auto auto;
+            grid-template-columns: repeat(2, auto);
         }
         
         .gri-col-1 {
-            grid-template-columns: auto;
+            grid-template-columns: repeat(1, auto);
         }
         /*SEPARACION entre columnas y filas */
         

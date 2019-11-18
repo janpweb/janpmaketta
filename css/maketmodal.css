@@ -120,6 +120,7 @@
     bottom: 0;
     left: 0;
     opacity: 0;
+    z-index: 100;
     pointer-events: none;
     transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
