@@ -1,3 +1,16 @@
+:root {
+    --green: #9edb7b;
+    --thgreen: #c8f1b1;
+    --thgrhove: #c2ecaa;
+    --negro: #000;
+    --rojo: #e28989;
+    --thred: #ffcbcb;
+    --thrdhove: #fcbfbf;
+    --blue: #97b8ff;
+    --thblue: #c2d5ff;
+    --thblhove: #afc7fc;
+}
+
 table {
     padding: 10px;
     position: relative;
@@ -8,22 +21,9 @@ table {
     margin: auto;
 }
 
-th {
-    background: black;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #e2e0e2;
-}
-
-tr:nth-child(even):hover {
-    background-color: #cfcfcf;
-    color: #000;
-}
-
-tr:nth-child(odd) {
-    background: white;
+thead[class="jm-table-df"]>tr>th {
+    background-color: var(--negro);
+    color: rgb(224, 220, 220);
 }
 
 th,
@@ -34,4 +34,88 @@ td {
 
 .responsives {
     overflow-x: auto;
+}
+
+thead+tbody>tr:nth-child(odd) {
+    background: #ffffff;
+    ;
+}
+
+thead[class="jm-table-df"]+tbody>tr:nth-child(even) {
+    background-color: #e2e0e2;
+}
+
+thead[class="jm-table-df"]+tbody>tr:nth-child(even) {
+    background-color: #e2e0e2;
+}
+
+thead[class="jm-table-df"]+tbody>tr:nth-child(even):hover {
+    background-color: #cfcfcf;
+    color: rgb(29, 28, 28);
+}
+
+
+/***
+otros estilos para tablas
+
+** */
+
+thead[class="jm-table-green"]>tr>th {
+    background-color: var(--green);
+    color: rgb(248, 248, 248)
+}
+
+thead[class="jm-table-green"]+tbody>tr>td {
+    color: #5a5a5a;
+}
+
+thead[class="jm-table-green"]+tbody>tr:nth-child(even) {
+    background-color: var(--thgreen);
+}
+
+thead[class="jm-table-green"]+tbody>tr:nth-child(even):hover {
+    background-color: var(--thgrhove);
+    color: rgb(29, 28, 28);
+}
+
+
+/* ROJO */
+
+thead[class="jm-table-red"]>tr>th {
+    background-color: var(--rojo);
+    color: rgb(53, 53, 53);
+}
+
+thead[class="jm-table-red"]+tbody>tr>td {
+    color: rgb(53, 53, 53);
+}
+
+thead[class="jm-table-red"]+tbody>tr:nth-child(even) {
+    background-color: var(--thred);
+}
+
+thead[class="jm-table-red"]+tbody>tr:nth-child(even):hover {
+    background-color: var(--thrdhove);
+    color: rgb(29, 28, 28);
+}
+
+
+/* blue */
+
+thead[class="jm-table-blue"]>tr>th {
+    background-color: var(--blue);
+    color: rgb(53, 53, 53);
+}
+
+thead[class="jm-table-red"]+tbody>tr>td {
+    color: rgb(53, 53, 53);
+}
+
+thead[class="jm-table-blue"]+tbody>tr:nth-child(even) {
+    background-color: var(--thblue);
+}
+
+thead[class="jm-table-blue"]+tbody>tr:nth-child(even):hover {
+    background-color: var(--thblhove);
+    color: rgb(29, 28, 28);
 }
