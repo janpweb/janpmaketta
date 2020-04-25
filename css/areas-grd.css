@@ -33,6 +33,7 @@ body {
 
 .item6 {
     grid-area: footer;
+    display: inline-grid;
 }
 
 .modelo {
@@ -95,8 +96,10 @@ body {
     }
 }
 
-@media (max-width:800px) {
+
+@media (max-width:375px){
     .modelo {
+   
         grid-template-areas: 'header header header header header header' 'main main main main main main ' 'right right right right right right' 'seccion seccion seccion seccion seccion seccion' 'footer footer footer footer footer footer';
     }
 }
