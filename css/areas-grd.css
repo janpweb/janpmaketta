@@ -24,6 +24,7 @@ body {
 .item4 {
     grid-area: right;
     display: inline-grid;
+
 }
 
 .item5 {
