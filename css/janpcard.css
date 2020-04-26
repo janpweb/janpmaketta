@@ -1,5 +1,5 @@
 .jm-card-group {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
 }
 
@@ -7,7 +7,7 @@
 /*tamaños de las targetas*/
 
 .card-tm-390 {
-    grid-template-columns: 390px;
+    grid-template-columns: 360px;
 }
 
 .card-tm-450 {
@@ -83,7 +83,9 @@
 }
 
 .jm-card-body {
-    width: 100%;
+    margin: auto;
+    display:grid;
+    clear: both;
 }
 
 .jm-card-titulo {
@@ -127,3 +129,32 @@ p {
 @media (max-width:1000px) {}
 
 @media (max-width:800px) {}
+@media (max-width:375px) {
+    .jm-card-group {
+        border: 2px solid red;
+        overflow: hidden;
+        clear: both;
+        flex-wrap: wrap;
+    } 
+    .jm-card-df {
+        display: grid;
+        width: 360px;
+    
+        overflow: hidden;
+        grid-template-rows: auto;
+        margin: 0 auto;
+        margin-top: 15px;
+        background-color: blanchedalmond;
+        /*elcontenedor*/
+        box-shadow: none;
+        border: 2px solid black;
+       
+    }
+    .jm-card-body {
+        border: 1px solid red;
+        
+    
+  
+    }
+
+}
