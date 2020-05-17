@@ -18,9 +18,11 @@ button {
 }
 
 .botn {
-    display: block;
+    display: flex;
+    justify-content: center;
     height: 45px;
     width: 250px;
+    line-height: 28px;
     margin-left: 0;
     margin-right: 0;
     border-radius: 5px;
@@ -29,9 +31,14 @@ button {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+.botn:hover {
+    line-height: 28px;
+
+}
 
 .botn-block {
     display: block;
+    justify-items: center;
     width: 100%;
     border: 1px solid transparent;
     background: #f7eeee;
@@ -41,6 +48,7 @@ button {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+;
 }
 
 .botn-rd-25 {
@@ -50,6 +58,7 @@ button {
     -ms-border-radius: 25px !important;
     -o-border-radius: 25px !important;
 }
+
 
 .botn-block:hover {
     border: 2px solid #dad7d7;
@@ -61,6 +70,7 @@ button {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
 
 .botn-block:focus {
     display: block;
@@ -79,7 +89,7 @@ button {
     background: #75d485;
 }
 
-.btn-green:hover {
+/*.btn-green:hover {
     box-sizing: border-box;
     background: #69bb7a !important;
     border: 2px solid #32663b !important;
@@ -93,11 +103,24 @@ button {
     -moz-transition: all 500ms ease-in;
     -ms-transition: all 500ms ease-in;
     -o-transition: all 500ms ease-in;
+}*/
+.btn-green:hover {
+    box-sizing: border-box;
+    background: #69bb7a !important;
+    /*border: 2px solid #32663b !important**/
+    box-shadow:5px 5px 5px #32663b;
+    transition: all 500ms ease-in;
+    -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    -ms-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
 }
 
-.btn-green:focus {
-    background: #75d485 !important;
-    border: 2px solid #32663b;
+
+.btn-green:focus-visible {
+    background: #d47575 !important;
+
+    border: 10px solid #32663b !important;
 }
 
 
