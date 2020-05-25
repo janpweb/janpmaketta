@@ -108,12 +108,12 @@ button {
     box-sizing: border-box;
     background: #69bb7a !important;
     /*border: 2px solid #32663b !important**/
+ 
+}
+.btn-special:hover{
     box-shadow:5px 5px 5px #32663b;
-    transition: all 500ms ease-in;
-    -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    -ms-transition: all 500ms ease-in;
-    -o-transition: all 500ms ease-in;
+    transform: scale(0.98);
+    transition: all 500ms;
 }
 
 
