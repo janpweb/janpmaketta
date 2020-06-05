@@ -1,6 +1,8 @@
 button {
+    display: flex;
+    justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     text-align: initial;
     padding: 0.45rem;
     border: transparent;
@@ -20,9 +22,9 @@ button {
 .botn {
     display: flex;
     justify-content: center;
-    height: 45px;
-    width: 250px;
-    line-height: 28px;
+    height: 35px;
+    width: 120px;
+    line-height: 17px;
     margin-left: 0;
     margin-right: 0;
     border-radius: 5px;
@@ -31,23 +33,18 @@ button {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.botn:hover {
-    line-height: 28px;
 
-}
 
 .botn-block {
-    display: block;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    border: 1px solid transparent;
-    background: #f7eeee;
-    /*COLOR POR DEFAULT*/
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    height: 35px;   
+    border-radius:7px ;    
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
 ;
 }
 
@@ -60,16 +57,6 @@ button {
 }
 
 
-.botn-block:hover {
-    border: 2px solid #dad7d7;
-    background: #f5ebeb;
-    /*COLOR POR DEFAULT*/
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
 
 
 .botn-block:focus {
@@ -89,31 +76,11 @@ button {
     background: #75d485;
 }
 
-/*.btn-green:hover {
-    box-sizing: border-box;
-    background: #69bb7a !important;
-    border: 2px solid #32663b !important;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    transition: all 500ms ease-in;
-    -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    -ms-transition: all 500ms ease-in;
-    -o-transition: all 500ms ease-in;
-}*/
-.btn-green:hover {
-    box-sizing: border-box;
-    background: #69bb7a !important;
-    /*border: 2px solid #32663b !important**/
- 
-}
 .btn-special:hover{
-    box-shadow:5px 5px 5px #32663b;
-    transform: scale(0.98);
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.418);
+    transform: scale(0.99);
     transition: all 500ms;
+
 }
 
 
@@ -133,22 +100,6 @@ button {
     background: #ff9822;
 }
 
-.btn-orange:hover {
-    box-sizing: border-box;
-    background: #ffa947 !important;
-    border: 2px solid #ee8002 !important;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    transition: all 500ms ease-in;
-    -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    -ms-transition: all 500ms ease-in;
-    -o-transition: all 500ms ease-in;
-}
-
 .btn-orange:focus {
     background: #e07902 !important;
     border: 2px solid #854701;
@@ -161,20 +112,6 @@ button {
     background: #339be0;
 }
 
-.btn-blue:hover {
-    background: #2a84c0 !important;
-    border: 2px solid #236d9e !important;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    transition: all 500ms ease-in;
-    -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    -ms-transition: all 500ms ease-in;
-    -o-transition: all 500ms ease-in;
-}
 
 .btn-blue:focus {
     background: #246c9c !important;
